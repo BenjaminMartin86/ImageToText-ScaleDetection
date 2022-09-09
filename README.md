@@ -136,7 +136,7 @@ As a result, the following processing is made on image:
 
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step4.png" width="600">
 
-4.Detect lengh and value
+5.Detect lengh and value
 ------------
 
 Detect the (horizontal) length of the scale. Converts the pixels to text, giving information on value (number) and metric (letters) provided by the scale.  
