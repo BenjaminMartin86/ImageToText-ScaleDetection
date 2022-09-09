@@ -1,0 +1,6 @@
+opencv
+imutils
+glob
+skimage
+easyocr
+re
