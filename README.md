@@ -55,6 +55,12 @@ pip install requirements.txt
 Algorithm
 =============
 
+
+Click on the link below and navigate to the notebooks to run a collection of interactive Jupyter notebooks showing the main functionalities of [`PixelsToText.ipynb`](https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/PixelsToText.ipynb):
+
+[<img alt="alt_text" width="90px" src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/JupyterLink.png" />](https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/PixelsToText.ipynb)
+
+
 1.Crop on ROI
 ------------
 
@@ -160,3 +166,7 @@ cv2.putText(image, TextValeurEchelle, (600, 400), cv2.FONT_HERSHEY_COMPLEX_SMALL
 As a result, the following processing is made on image:
 
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step5.png" width="600">
+
+------------
+
+An application case is proposed here, working on differents images scales values. For more details and possibilities, check the [`PixelsToText.ipynb`](https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/PixelsToText.ipynb) Notebook.
