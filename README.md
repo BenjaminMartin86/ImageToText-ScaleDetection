@@ -72,6 +72,7 @@ CropEchelle = image[np.round(image.shape[0]*Echelle,0).astype(int):,
 ```
 
 As a result, the following processing is made on image:
+
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step1.png" width="600">
 
 2.Thresolding
@@ -84,6 +85,7 @@ ret, thresh = cv2.threshold(CropEchelleGray, 250, 255, cv2.THRESH_BINARY)
 ```
 
 As a result, the following processing is made on image:
+
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step2.png" width="600">
 
 3.Contour Detection
@@ -103,6 +105,7 @@ cv2.drawContours(output, [c], -1, (0, 255, 0), 5)
 ```
 
 As a result, the following processing is made on image:
+
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step3.png" width="600">
 
 4.Crop on Scale
@@ -124,6 +127,7 @@ out = out[topy:bottomy+1, topx:bottomx+1]
 ```
 
 As a result, the following processing is made on image:
+
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step4.png" width="600">
 
 4.Detect lengh and value
@@ -154,4 +158,5 @@ cv2.putText(image, TextValeurEchelle, (600, 400), cv2.FONT_HERSHEY_COMPLEX_SMALL
 ```
 
 As a result, the following processing is made on image:
+
 <img src="https://github.com/BenjaminMartin86/ImageToText-ScaleDetection/blob/main/Pictures/Step5.png" width="600">
